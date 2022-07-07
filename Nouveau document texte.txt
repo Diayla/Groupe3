@@ -1,0 +1,32 @@
+les etapes du devops :
+++ le plan 
+++ le code 
+++ le test 
+++ le deploy 
+++  le release 
+++ l'operate 
+++ le monitoring 
+puis on reprend le processus : c'est un processus continue.
+
+c'est quoi un docker ?
+plateforme logicielle qui facilite le deploiement le developpement et l'exploitation des applications.
+les techiques  de virtualisation des applicaions :
+ ++ Reposant su un noyau leger
+++ executant les applications dans les processus isolés++ regroupe les dependances applicatives necessaires 
+
+forces: 
+	+ portabilite
+	+ optimisation des ressources 
+	+ approche micro-service 
+	+ pas d'effet de bord sur les autres applications ou services 
+
+faiblesses: 
+
+
+l'application et l'ensemble de ces paquets et code sources qui permettent a l'application de fonctionner 
+docker-files decrit comment fonctoinne l'image 
+le tag permet de determiner la version de l'image utiliséeComposants du docker file : 
+from nginx : preciser la version 
+from nginx latest : 
+
+Maintainer permet  de specifier la personne en charge de maintenir le Dockerfile 
